@@ -1,0 +1,271 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {290, 360}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{15, 15}, {80, 35}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "242B8BC6-7D11-4BD3-B488-B68B024DF017",
+          "corner_radius" : 5,
+          "frame" : "{{153, 127}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 1,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Mode",
+          "action" : "button_press",
+          "alpha" : 1,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{190, 15}, {80, 35}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "242B8BC6-7D11-4BD3-B488-B68B024DF017",
+          "flex" : "L",
+          "corner_radius" : 5,
+          "frame" : "{{153, 127}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Sound",
+          "action" : "button_press",
+          "class" : "Button",
+          "name" : "button2",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{113, 15}, {50, 50}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "LR",
+          "frame" : "{{219, 189}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 15,
+          "uuid" : "562D5E62-89A9-4F12-BD4F-8BD6A1794ED0",
+          "name" : "led3"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{46, 80}, {50, 50}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "LRTB",
+          "frame" : "{{219, 189}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 15,
+          "uuid" : "4050EF8F-189D-4A2B-BAA0-3B46C3CB20FF",
+          "name" : "led0"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{113, 80}, {50, 50}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "LRTB",
+          "frame" : "{{219, 189}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 15,
+          "uuid" : "4050EF8F-189D-4A2B-BAA0-3B46C3CB20FF",
+          "name" : "led4"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{179, 80}, {50, 50}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "LRTB",
+          "frame" : "{{219, 189}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 15,
+          "uuid" : "4050EF8F-189D-4A2B-BAA0-3B46C3CB20FF",
+          "name" : "led2"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{115, 145}, {50, 50}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "LRTB",
+          "frame" : "{{219, 189}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 15,
+          "uuid" : "4050EF8F-189D-4A2B-BAA0-3B46C3CB20FF",
+          "name" : "led1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{15, 275}, {56, 35}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "flex" : "T",
+          "frame" : "{{194, 223}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "5813A235-2F55-4A85-9F04-BA670409ED8A",
+          "text" : "Temp",
+          "alignment" : "left",
+          "class" : "Label",
+          "font_size" : 18,
+          "name" : "label1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{75, 275}, {54, 35}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "flex" : "LRT",
+          "frame" : "{{194, 223}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "5813A235-2F55-4A85-9F04-BA670409ED8A",
+          "text" : "0",
+          "alignment" : "center",
+          "class" : "Label",
+          "name" : "Temp",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{150, 275}, {60, 35}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "flex" : "LRT",
+          "frame" : "{{194, 223}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "5813A235-2F55-4A85-9F04-BA670409ED8A",
+          "text" : "Battery",
+          "alignment" : "left",
+          "class" : "Label",
+          "name" : "label1",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{218, 275}, {50, 35}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "flex" : "LT",
+          "frame" : "{{194, 223}, {150, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "5813A235-2F55-4A85-9F04-BA670409ED8A",
+          "text" : "0 ",
+          "alignment" : "center",
+          "class" : "Label",
+          "name" : "Batt",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{15, 226}, {100, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WRT",
+          "border_width" : 1,
+          "continuous" : true,
+          "frame" : "{{140, 143}, {200, 34}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Slider",
+          "uuid" : "7918AAEC-545F-4BB5-935F-63BAD3204FA4",
+          "value" : 0.5,
+          "corner_radius" : 5,
+          "name" : "slider1"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{169, 226}, {100, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WLT",
+          "border_width" : 1,
+          "continuous" : false,
+          "frame" : "{{140, 143}, {200, 34}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Slider",
+          "uuid" : "2A987990-E94F-4493-BF1E-3A5C005AB03F",
+          "value" : 0.5,
+          "corner_radius" : 6,
+          "name" : "slider2"
+        }
+      }
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "custom_class" : "BadgeView",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "IoTBadge"
+    }
+  }
+]

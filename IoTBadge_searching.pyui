@@ -1,0 +1,36 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{85, 144}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "font_size" : 28,
+          "frame" : "{{85, 144}, {150, 32}}",
+          "uuid" : "F62B6C2D-F6EE-4042-A9A1-8A610423AC17",
+          "text" : "Searching...",
+          "alignment" : "center",
+          "class" : "Label",
+          "name" : "label1",
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "name" : "IoTBadge",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
